@@ -1,0 +1,9 @@
+{
+  "name" : "Self Bot",
+  "name2" : "By  zip f i le",
+  "font" : "Doom",
+  "color" : "RED",
+  "sub" : "557260090621558805",
+  "lib" : "discord.js-selfbot",
+  "prefix" : "+"
+}

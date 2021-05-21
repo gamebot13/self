@@ -1,0 +1,16 @@
+{
+  "python3" : [ "py", "python3 -u code.py" ],
+  "python2" : [ "py", "python2 -u code.py" ],
+  "javascript" : [ "js", "node code.js" ],
+  "c" : [ "c", "gcc code.c -o code && ./code" ],
+  "c++" : [ "cc", "c++ code.cc -o code && ./code" ],
+  "rust" : [ "rs", "rustc code.rs -o code && ./code" ],
+  "c#" : [ "cs", "mcs code.cs -out:code && ./code" ],
+  "lua" : [ "lua", "lua code.lua" ],
+  "ruby" : [ "rb", "chmod +x code.rb && ./code.rb" ],
+  "go" : [ "go", "go run code.go" ],
+  "haskell" : [ "hs", "hgc code.hs -o code && ./code" ],
+  "asm_a64" : [ "s", "eval \"as code.s -o code.o && ld code.o -o code && ./code\"" ],
+  "asm_6502" : [ "asm", "jbit code.asm" ],
+  "hoverfly" : [ "hf", "eval \"python3 translator.py code.hf && as code.s -o code.o && ld code.o -o code && ./code\"" ]
+}

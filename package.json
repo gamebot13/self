@@ -1,0 +1,24 @@
+{
+  "name": "self",
+  "description": "Too lazy to write this. But soon will do \"_\".",
+  "version": "1.0.0",
+  "main": "selfbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gXLg/self_.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gXLg/self_/issues"
+  },
+  "homepage": "https://github.com/gXLg/self_#readme",
+  "dependencies": {
+    "cache-require-paths": "^0.3.0",
+    "figlet": "^1.5.0",
+    "tree-kill": "^1.2.2"
+  }
+}
